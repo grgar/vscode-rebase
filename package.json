@@ -1,0 +1,16 @@
+{
+  "name": "rebase",
+  "displayName": "Git Rebase Shortcuts",
+  "description": "Shortcuts for Git rebase editor",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "contributes": {
+    "keybindings": [
+    ]
+  }
+}
