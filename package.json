@@ -69,6 +69,16 @@
             { "command": "deleteWordRight" },
             { "command": "editor.action.insertSnippet", "args": { "snippet": "fixup" } } ]
         }
+      },
+      {
+        "key": "b",
+        "command": "runCommands",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "args": {
+          "commands": [
+            { "command": "editor.action.insertLineAfter" },
+            { "command": "editor.action.insertSnippet", "args": { "snippet": "break" } } ]
+        }
       }
     ]
   }
