@@ -79,6 +79,18 @@
             { "command": "editor.action.insertLineAfter" },
             { "command": "editor.action.insertSnippet", "args": { "snippet": "break" } } ]
         }
+      },
+      {
+        "key": "x",
+        "command": "runCommands",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "args": {
+          "commands": [
+            { "command": "editor.action.insertLineAfter" },
+            { "command": "editor.action.insertSnippet", "args": { "snippet": "exec " } },
+            { "command": "extension.vim_insert" }
+          ]
+        }
       }
     ]
   }
