@@ -11,6 +11,65 @@
   ],
   "contributes": {
     "keybindings": [
+      {
+        "key": "p",
+        "command": "runCommands",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "args": {
+          "commands": [
+            { "command": "cursorMove", "args": { "to": "wrappedLineStart" } },
+            { "command": "deleteWordRight" },
+            { "command": "editor.action.insertSnippet", "args": { "snippet": "pick" } }
+          ]
+        }
+      },
+      {
+        "key": "r",
+        "command": "runCommands",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "args": {
+          "commands": [
+            { "command": "cursorMove", "args": { "to": "wrappedLineStart" } },
+            { "command": "deleteWordRight" },
+            { "command": "editor.action.insertSnippet", "args": { "snippet": "reword" } }
+          ]
+        }
+      },
+      {
+        "key": "e",
+        "command": "runCommands",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "args": {
+          "commands": [
+            { "command": "cursorMove", "args": { "to": "wrappedLineStart" } },
+            { "command": "deleteWordRight" },
+            { "command": "editor.action.insertSnippet", "args": { "snippet": "edit" } }
+          ]
+        }
+      },
+      {
+        "key": "s",
+        "command": "runCommands",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "args": {
+          "commands": [
+            { "command": "cursorMove", "args": { "to": "wrappedLineStart" } },
+            { "command": "deleteWordRight" },
+            { "command": "editor.action.insertSnippet", "args": { "snippet": "squash" } }
+          ]
+        }
+      },
+      {
+        "key": "f",
+        "command": "runCommands",
+        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "args": {
+          "commands": [
+            { "command": "cursorMove", "args": { "to": "wrappedLineStart" } },
+            { "command": "deleteWordRight" },
+            { "command": "editor.action.insertSnippet", "args": { "snippet": "fixup" } } ]
+        }
+      }
     ]
   }
 }
