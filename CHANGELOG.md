@@ -1,4 +1,8 @@
 # Changelog
+### v0.1.1
+
+- Add both light/dark icons and default to light
+
 ### v0.1.0
 
 - Add readme and icon
@@ -18,7 +22,6 @@
   
   Sets pick, reword, edit, squash, fixup on the current line.
 
-### v0.0.0
 
 - Initial commit
 
