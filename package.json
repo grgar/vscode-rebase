@@ -9,7 +9,6 @@
   "description": "Shortcuts for Git rebase editor",
   "icon": "images/icon-light-small.png",
   "version": "0.1.2",
-  "preview": true,
   "license": "MIT",
   "engines": {
     "vscode": "^1.74.0"
@@ -37,7 +36,7 @@
       {
         "key": "p",
         "command": "runCommands",
-        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "when": "editorTextFocus && (vim.mode == 'Normal' || !vim.active) && editorLangId == 'git-rebase'",
         "args": {
           "commands": [
             {
@@ -61,7 +60,7 @@
       {
         "key": "r",
         "command": "runCommands",
-        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "when": "editorTextFocus && (vim.mode == 'Normal' || !vim.active) && editorLangId == 'git-rebase'",
         "args": {
           "commands": [
             {
@@ -85,7 +84,7 @@
       {
         "key": "e",
         "command": "runCommands",
-        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "when": "editorTextFocus && (vim.mode == 'Normal' || !vim.active) && editorLangId == 'git-rebase'",
         "args": {
           "commands": [
             {
@@ -109,7 +108,7 @@
       {
         "key": "s",
         "command": "runCommands",
-        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "when": "editorTextFocus && (vim.mode == 'Normal' || !vim.active) && editorLangId == 'git-rebase'",
         "args": {
           "commands": [
             {
@@ -133,7 +132,7 @@
       {
         "key": "f",
         "command": "runCommands",
-        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "when": "editorTextFocus && (vim.mode == 'Normal' || !vim.active) && editorLangId == 'git-rebase'",
         "args": {
           "commands": [
             {
@@ -157,7 +156,7 @@
       {
         "key": "b",
         "command": "runCommands",
-        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "when": "editorTextFocus && (vim.mode == 'Normal' || !vim.active) && editorLangId == 'git-rebase'",
         "args": {
           "commands": [
             {
@@ -175,7 +174,7 @@
       {
         "key": "x",
         "command": "runCommands",
-        "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
+        "when": "editorTextFocus && vim.mode == 'Normal' && editorLangId == 'git-rebase'",
         "args": {
           "commands": [
             {
