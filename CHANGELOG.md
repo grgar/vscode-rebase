@@ -1,4 +1,18 @@
 # Changelog
+### v0.2.0
+
+- Update readme to explain vim vs non-vim usage
+
+
+- Allow non-vim users to always have extension active in editor
+  
+  Add support for non-vim users by always enabling the keybindings so the shortcuts are always available, at the expense of some currently-unavoidable loss in functionality in the editor.
+
+
+- Replace launch.json with install in Makefile
+  
+  Extension has no JavaScript so cannot be launched.
+
 ### v0.1.2
 
 - Add table of keys and actions to readme
