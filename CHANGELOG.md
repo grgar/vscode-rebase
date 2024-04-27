@@ -1,4 +1,8 @@
 # Changelog
+### v0.1.2
+
+- Add table of keys and actions to readme
+
 ### v0.1.1
 
 - Add both light/dark icons and default to light
