@@ -1,4 +1,8 @@
 # Changelog
+### v0.2.1
+
+- Fix icon colour for dark mode
+
 ### v0.2.0
 
 - Update readme to explain vim vs non-vim usage

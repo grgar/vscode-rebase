@@ -1,14 +1,14 @@
 {
   "name": "rebase",
-  "displayName": "Git Rebase Keybindings",
+  "displayName": "Git Rebase",
   "publisher": "grg",
   "repository": {
     "type": "git",
     "url": "https://github.com/grgar/vscode-rebase"
   },
   "description": "Shortcuts for Git rebase editor",
-  "icon": "images/icon-light-small.png",
-  "version": "0.2.0",
+  "icon": "images/icon.png",
+  "version": "0.2.1",
   "license": "MIT",
   "engines": {
     "vscode": "^1.74.0"
@@ -20,6 +20,9 @@
     "name": "grg",
     "url": "https://grg.app",
     "email": "vscode@grg.app"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/grgar"
   },
   "homepage": "https://github.com/grgar/vscode-rebase",
   "qna": "https://github.com/grgar/vscode-rebase/discussions",

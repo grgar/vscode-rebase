@@ -1,4 +1,4 @@
-# Git Rebase Keybindings
+# Git Rebase keybindings
 
 Adds shortcuts to the Git Rebase Message language editor to make quick changes to the instructions on each line.
 
