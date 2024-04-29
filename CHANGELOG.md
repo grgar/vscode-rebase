@@ -1,4 +1,10 @@
 # Changelog
+### v0.3.0
+
+- Add support for multi-line selections
+  
+  Use multi-cursor support to apply changes to all selected lines.
+
 ### v0.2.1
 
 - Fix icon colour for dark mode
