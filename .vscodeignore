@@ -1,3 +1,6 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.github/**
+Makefile
+package-lock.json
